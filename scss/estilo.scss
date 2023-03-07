@@ -1,0 +1,78 @@
+@import "fuentes";
+@import "variables";
+@import "header";
+@import "main";
+@import "footer";
+
+
+body {
+    background-color: $color-principal;
+    font-family: 'Roboto Condensed', sans-serif;
+    min-height: 100vh;
+}
+
+h1 {
+    color: white;
+    text-shadow: 1px 1px 2px black;
+}
+
+h4 {
+    padding: 15px;
+    
+}
+
+.tituloPagina {
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 20px;
+}
+
+.parrafoPagina{
+    text-align: center;
+    color: white;
+}
+
+
+
+
+.formulario{
+    color: white;
+}
+.mapa{
+    padding: 50px;
+}
+
+nav{
+    background-color: black;
+    
+    height: 150px;
+    text-align: center;
+    color: $color-principal;
+}
+.logo {
+    height:120px;
+    width:120px;
+    text-align: center;
+
+}
+span{
+    font-weight: bold;
+}
+.ulA{
+    text-transform: uppercase;
+    text-decoration: none;
+    margin: 10px;
+    color: $color-principal;
+}
+li {
+    float: none;
+    list-style-type: none;
+    display: inline-block;
+
+   
+
+}
+
+.textForm {
+    color: aquamarine;
+}
