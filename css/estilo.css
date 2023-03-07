@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Roboto+Condensed&display=swap");
+main {
+  margin: 20px;
+  padding: 20px;
+  height: 800px;
+  background-image: url(../images/band-gd6baea682_1920.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+footer {
+  background-color: black;
+  text-align: center;
+  color: #a6c36f;
+  height: 50px;
+}
+
+body {
+  background-color: #a6c36f;
+  font-family: "Roboto Condensed", sans-serif;
+  min-height: 100vh;
+}
+
+h1 {
+  color: white;
+  text-shadow: 1px 1px 2px black;
+}
+
+h4 {
+  padding: 15px;
+}
+
+.tituloPagina {
+  text-align: center;
+  text-decoration: underline;
+  margin-bottom: 20px;
+}
+
+.parrafoPagina {
+  text-align: center;
+  color: white;
+}
+
+.formulario {
+  color: white;
+}
+
+.mapa {
+  padding: 50px;
+}
+
+nav {
+  background-color: black;
+  height: 150px;
+  text-align: center;
+  color: #a6c36f;
+}
+
+.logo {
+  height: 120px;
+  width: 120px;
+  text-align: center;
+}
+
+span {
+  font-weight: bold;
+}
+
+.ulA {
+  text-transform: uppercase;
+  text-decoration: none;
+  margin: 10px;
+  color: #a6c36f;
+}
+
+li {
+  float: none;
+  list-style-type: none;
+  display: inline-block;
+}
+
+.textForm {
+  color: aquamarine;
+}
+
+/*# sourceMappingURL=estilo.css.map */
