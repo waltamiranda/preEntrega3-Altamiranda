@@ -39,6 +39,7 @@ h4 {
 }
 
 .parrafoPagina {
+  font-size: 2rem;
   text-align: center;
   color: white;
 }
@@ -59,8 +60,8 @@ nav {
 }
 
 .logo {
-  height: 120px;
-  width: 120px;
+  width: 7rem;
+  height: 7rem;
   text-align: center;
 }
 

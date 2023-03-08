@@ -1,0 +1,11 @@
+@mixin parrafos {
+    font-size: 2rem;
+    text-align: center;
+    color: white;
+}
+
+@mixin logos($ancho, $alto, $align) {
+    width: $ancho;
+    height: $alto;
+    text-align: $align;
+}

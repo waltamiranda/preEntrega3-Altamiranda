@@ -1,8 +1,4 @@
-@import "fuentes";
-@import "variables";
-@import "header";
-@import "main";
-@import "footer";
+@import "fuentes","variables","mixin","header","main","footer";
 
 
 body {
@@ -28,8 +24,7 @@ h4 {
 }
 
 .parrafoPagina{
-    text-align: center;
-    color: white;
+    @include parrafos;
 }
 
 
@@ -50,9 +45,7 @@ nav{
     color: $color-principal;
 }
 .logo {
-    height:120px;
-    width:120px;
-    text-align: center;
+    @include logos(7rem,7rem,center); 
 
 }
 span{
